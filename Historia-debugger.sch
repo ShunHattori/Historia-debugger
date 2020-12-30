@@ -14,7 +14,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L controller-rescue:ATmega328-AU-MCU_Microchip_ATmega U2
+L Historia-debugger-rescue:ATmega328-AU-MCU_Microchip_ATmega-controller-rescue-Alice-F3000-debugger-rescue U2
 U 1 1 5FDD89EE
 P 2400 2150
 F 0 "U2" H 2400 3565 50  0000 C CNN
@@ -38,12 +38,12 @@ $EndComp
 $Comp
 L Connector:USB_B_Mini J2
 U 1 1 5FDD8BCD
-P -5250 6900
-F 0 "J2" H -5193 7367 50  0000 C CNN
-F 1 "USB_B_Mini" H -5193 7276 50  0000 C CNN
-F 2 "2020_C_team:USB_Mini_B_holes" H -5100 6850 50  0001 C CNN
-F 3 "~" H -5100 6850 50  0001 C CNN
-	1    -5250 6900
+P 7100 4300
+F 0 "J2" H 7157 4767 50  0000 C CNN
+F 1 "USB_B_Mini" H 7157 4676 50  0000 C CNN
+F 2 "2020_C_team:USB_Mini_B_holes" H 7250 4250 50  0001 C CNN
+F 3 "~" H 7250 4250 50  0001 C CNN
+	1    7100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -88,7 +88,7 @@ Wire Wire Line
 Wire Wire Line
 	3200 1800 3100 1800
 $Comp
-L controller-rescue:Crystal_GND24_Small-Device Y1
+L Historia-debugger-rescue:Crystal_GND24_Small-Device-controller-rescue-Alice-F3000-debugger-rescue Y1
 U 1 1 5FDFE926
 P 1400 1300
 F 0 "Y1" V 1354 1444 50  0000 L CNN
@@ -193,37 +193,37 @@ F 3 "" H 950 2450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-5350 7300 -5350 7350
+	7000 4700 7000 4750
 Wire Wire Line
-	-5350 7350 -5250 7350
+	7000 4750 7100 4750
 Wire Wire Line
-	-5250 7300 -5250 7350
-Connection ~ -5250 7350
+	7100 4700 7100 4750
+Connection ~ 7100 4750
 Wire Wire Line
-	-5250 7350 -5250 7400
+	7100 4750 7100 4800
 $Comp
 L power:GND #PWR0111
 U 1 1 5FE32CAA
-P -5250 7400
-F 0 "#PWR0111" H -5250 7150 50  0001 C CNN
-F 1 "GND" H -5245 7227 50  0000 C CNN
-F 2 "" H -5250 7400 50  0001 C CNN
-F 3 "" H -5250 7400 50  0001 C CNN
-	1    -5250 7400
+P 7100 4800
+F 0 "#PWR0111" H 7100 4550 50  0001 C CNN
+F 1 "GND" H 7105 4627 50  0000 C CNN
+F 2 "" H 7100 4800 50  0001 C CNN
+F 3 "" H 7100 4800 50  0001 C CNN
+	1    7100 4800
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	-4950 6700 -4900 6700
+	7400 4100 7450 4100
 Wire Wire Line
-	-4900 6700 -4900 6650
-NoConn ~ -4950 7100
+	7450 4100 7450 4050
+NoConn ~ 7400 4500
 Wire Wire Line
-	-4950 6900 -4900 6900
+	7400 4300 7450 4300
 Wire Wire Line
-	-4950 7000 -4900 7000
-Text GLabel -4900 6900 2    50   Input ~ 0
+	7400 4400 7450 4400
+Text GLabel 7450 4300 2    50   Input ~ 0
 D+
-Text GLabel -4900 7000 2    50   Input ~ 0
+Text GLabel 7450 4400 2    50   Input ~ 0
 D-
 Text GLabel 6250 1400 2    50   Input ~ 0
 D+
@@ -667,12 +667,12 @@ NoConn ~ 1700 1700
 $Comp
 L power:VCC #PWR0116
 U 1 1 60013EBF
-P -4900 6650
-F 0 "#PWR0116" H -4900 6500 50  0001 C CNN
-F 1 "VCC" H -4885 6823 50  0000 C CNN
-F 2 "" H -4900 6650 50  0001 C CNN
-F 3 "" H -4900 6650 50  0001 C CNN
-	1    -4900 6650
+P 7450 4050
+F 0 "#PWR0116" H 7450 3900 50  0001 C CNN
+F 1 "VCC" H 7465 4223 50  0000 C CNN
+F 2 "" H 7450 4050 50  0001 C CNN
+F 3 "" H 7450 4050 50  0001 C CNN
+	1    7450 4050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -816,7 +816,7 @@ Wire Wire Line
 Text GLabel 3200 2500 2    50   Input ~ 0
 SS_IN
 $Comp
-L 2020_C_team:Adafruit_938 U3
+L Historia-debugger-rescue:Adafruit_938-2020_C_team-Alice-F3000-debugger-rescue U3
 U 1 1 5FEA5AD5
 P 2300 4450
 F 0 "U3" H 2300 5215 50  0000 C CNN
@@ -1154,7 +1154,7 @@ $EndComp
 Text GLabel 9600 2750 2    50   Input ~ 0
 RESET
 $Comp
-L MCP2221-I_SL:MCP2221-I_SL U1
+L Historia-debugger-rescue:MCP2221-I_SL-MCP2221-I_SL-Alice-F3000-debugger-rescue U1
 U 1 1 5FDD60FF
 P 5500 2000
 F 0 "U1" H 5500 3270 50  0000 C CNN

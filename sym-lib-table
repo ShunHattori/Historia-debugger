@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Historia-debugger-rescue)(type Legacy)(uri ${KIPRJMOD}/Historia-debugger-rescue.lib)(options "")(descr ""))
+)
